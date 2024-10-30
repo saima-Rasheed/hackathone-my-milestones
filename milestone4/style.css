@@ -1,0 +1,64 @@
+/*styling form and resume section*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+form {
+    margin: auto;
+    background-color: rgb(175, 219, 236);
+    border-radius: 8px;
+    box-shadow:0 4px 8px blue;
+    padding: 20px;
+    max-width: 600px;
+    /*making the resume editable*/
+    outline: none;
+   
+}
+h1 {
+    text-align: center;
+    color: blue;
+
+}
+button {
+
+    background-color: rgb(100, 192, 228);
+    color:blue;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px blue;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+
+
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid blue;
+    border-radius: 4px;
+
+    
+}
+
+
+    
